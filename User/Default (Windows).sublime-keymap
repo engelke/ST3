@@ -1,0 +1,7 @@
+[
+    { "keys": ["ctrl+v"], "command": "insert_lines" },
+    { "keys": ["insert"], "command": "toggle_full_screen" },
+    { "keys": ["alt+j"],  "command": "join_lines"},
+    { "keys": ["alt+k"],  "command": "delete_to_end_of_line"},
+    { "keys": ["alt+d"],  "command": "delete_line"}
+]

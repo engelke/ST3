@@ -1,0 +1,6 @@
+import sublime, sublime_plugin
+
+class DeleteLineCommand(sublime_plugin.TextCommand):
+    def run(self, edit):
+        for region in self.view.sel():
+            self.view.erase(edit, self.view.full_line(region))
